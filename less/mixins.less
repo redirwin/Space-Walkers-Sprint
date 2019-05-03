@@ -1,5 +1,27 @@
 // Mixins Here
 
+.flexierow (@justify) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.flexiecol (@align) {
+    display: flex;
+    flex-direction: column;
+    align-items: @align;
+}
+
+.buttons(@radius) {
+    color: @porcelain;
+    background-color: @btn-bg-color;
+    border-color: @ebony-clay;
+    border-radius: @radius;
+    width: 30%;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 2%;
+    text-align: center;
+}
 
 // Helper to see elements when coding.
 .see(@color) {
