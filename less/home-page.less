@@ -57,10 +57,13 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        .buttons(4px);
+      .btn{
+        .btn(4px, @btn-bg-color, @porcelain);
+        &:hover {
+          .btn(4px, @porcelain, @btn-bg-color)
+        }
       }
-    }
+    } 
 
     .walk-img {
       width: 46%;
