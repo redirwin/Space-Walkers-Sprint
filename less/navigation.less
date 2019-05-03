@@ -1,1 +1,35 @@
-// Navigation code here
+.nav-container {
+    .flexierow(center);
+}
+
+nav {
+    .flexiecol(center);
+    background-color: @wild-sand;
+
+        h1 {
+            font-size: 4rem;
+            margin: 1% 0 .5% 0;
+        }
+    
+        ul {
+            display: flex;
+            margin: 1% 0;
+            justify-content: space-between;
+            width: 25%;
+            @media @phone {
+                width: 90%;
+                margin-bottom: 2%;
+
+            }
+        }
+
+        a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: @river-bend;
+            font-weight: 600;
+    }
+
+}
+
+
