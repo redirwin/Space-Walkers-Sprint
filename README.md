@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+1A. Adaptive websites use media queries and apply different styles with fixed width usually divided into desktop, tablet, and mobile sizes. Adaptive content is selected by the server prior to delivery. Fully responsive websites also uses media queries with different styles based on viewport size, however responsive units are used throughout. Design is based on the currently available screen width.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+2A. Mobile first means starting with a design specifically made to look good on smaller devices, then moving up to larger sizes through the use of min-width media queries. Desktop first is the opposite, starting with a design for desktop and then using max-width media queries to move toward smaller devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+3A. It modifies the base font size of 16px to percentage units, which are more intuitive and scale as expected. It allows us to use em or rem units. For example 1.2rem = 12px, 2rem = 20px, etc.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+4A. A CSS preprocessor is a special program that adds additional functionality not found in vanilla CSS. It gives us some additional tools that make writing CSS easier, quicker, and more modular.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+5A. My favorite concept is nesting. I like being able write my CSS in a way that follows my HTML structure more closely, and it feels more intuitive. My biggest challenge so far has been parametric mixins. Structuring the actual mixin to accept and use arguments took some time to get used to, as I'd never used this concept in CSS before.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +69,9 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
